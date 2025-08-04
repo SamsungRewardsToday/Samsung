@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(181, 177, 177);
+    margin-inline: 0;
+    width: 100vw;
+    padding: 0;
+    min-height: 90vh;
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: white;
+    width: 359px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.body-content{
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    
+}
+nav > p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+.body-content p {
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 15px;
+    font-size: large;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-weight: 560;
+    color: rgb(36, 37, 37);
+}
+@media screen and (max-width:500px){
+    main{
+        padding: 0;
+        padding-top: 5px;
+    }
+    .body-content{
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
